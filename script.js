@@ -1,10 +1,10 @@
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
-const inputColor = document.querySelector(".input__color");
-const tools = document.querySelectorAll(".button__tool");
-const sizeButtons = document.querySelectorAll(".button__size");
-const buttonClear = document.querySelector(".button__clear");
+const inputColor = document.querySelector(".input_color");
+const tools = document.querySelectorAll(".btn_tool");
+const sizeButtons = document.querySelectorAll(".btn_size");
+const buttonClear = document.querySelector(".btn_clear");
 
 let brushSize = 20;
 
